@@ -1,0 +1,1 @@
+import Database from 'better-sqlite3';export const db=new Database('data.sqlite');export function initDb(){ db.exec('CREATE TABLE IF NOT EXISTS events(id INTEGER PRIMARY KEY AUTOINCREMENT, ts TEXT, type TEXT, payload TEXT);'); }

@@ -1,0 +1,1 @@
+import { Request, Response } from 'express'; export async function readGaps(req:Request,res:Response){ res.json({gaps:[]}); }
