@@ -1,1 +1,1 @@
-import { Request, Response } from 'express'; export function dashboard(req:Request,res:Response){ res.send('<h2>Salon MCP Dashboard</h2>'); }
+import { Request, Response } from 'express';export function dashboard(req:Request,res:Response){ res.send('<h2>Salon MCP Dashboard</h2>'); }

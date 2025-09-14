@@ -1,1 +1,1 @@
-import { Request, Response } from 'express'; export async function readGaps(req:Request,res:Response){ res.json({gaps:[]}); }
+import { Request, Response } from 'express'; export async function readGaps(req:Request,res:Response){ res.json({gaps:[{start_iso:new Date().toISOString(), end_iso:new Date(Date.now()+3600000).toISOString(), source:'demo'}]}); }
